@@ -1,10 +1,9 @@
 #got some help from stackoverflow
 
-from itertools import product
-with open("datafile") as myfile:
-    head = [next(myfile) for x in range(25)] # importing first 25 lines
-print(head)
-
+N = 25
+file = open("file.txt", "a")#the a opens it in append mode
+for i in range(N):
+    line = file.next().strip()
 
 def i33t(string):
     vocab = {
@@ -13,4 +12,6 @@ def i33t(string):
     "e" or "E" :["3"]
     "i" or "I" :["1"]
     for word in string.split(" "):
-                
+        ts = input("enter char")
+            if ts in vocab 
+                        
