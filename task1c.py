@@ -1,5 +1,7 @@
 def ctiv():
     count=0
+    count1=0
+    count2=0
     fin=open("Trail.csv", 'r')
     for line in fin:
         words=line.split(",")
